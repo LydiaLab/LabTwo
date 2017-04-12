@@ -26,11 +26,11 @@ public class Main {
                 }
             } else {// then it is odd
 
-                if (input % 2 != 0) {
+                if (input <= 60) {
                     System.out.println(input + " Odd.");// odd numbers lower that 60
                 }
                 else if (input > 60){
-                    System.out.println(input + "Odd and over 60.");// odd<60
+                    System.out.println(input + " Odd and over 60.");// odd<60
                 }
             }
         }
